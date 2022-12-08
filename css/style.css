@@ -128,7 +128,6 @@
     border: none;
     border-radius: 10px;
     margin: auto;
-    justify-content: center;
     align-items: center;
     color: white;
     gap: 10px;
@@ -136,7 +135,7 @@
 }
 
 .bannerContainer .textBox {
-    flex:2;
+    flex:3;
 }
 
 .bannerContainer .buttonBox {
