@@ -2,10 +2,33 @@
     padding: 0px;
     margin: 0px;
     background-color: #1F2937;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
-.header {
-    height: 500px;
+.hero {
+    height: 450px;
+    max-width: 800px;
+    min-width: 500px;
+}
+
+.headerBar {
+    display: flex;
+    margin: auto;
+    height: 50px;
+    max-width: 1000px;
+    min-width: 500px;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+.headerBar .logoText {
+    flex: 2;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerBar .navButton {
+    flex: 1;
 }
 
 .content {
