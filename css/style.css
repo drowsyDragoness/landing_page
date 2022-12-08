@@ -6,9 +6,32 @@
  }
 
 .hero {
-    height: 450px;
-    max-width: 800px;
-    min-width: 500px;
+    margin-top: 100px;
+    height: 350px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero .mainText {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero .flexContainer {
+    max-width: 1000px;
+    border: 1px black solid;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.hero .flexContainer .heroText {
+    flex: 1;
+}
+
+.hero .flexContainer .heroImage {
+    flex: 1;
 }
 
 .headerBar {
@@ -16,19 +39,20 @@
     margin: auto;
     height: 50px;
     max-width: 1000px;
-    min-width: 500px;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     align-items: center;
 }
 
 .headerBar .logoText {
-    flex: 2;
+    flex: 3;
     font-size: 24px;
     color: #F9FAF8;
 }
 
 .headerBar .navButton {
     flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .content {
