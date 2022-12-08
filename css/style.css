@@ -6,7 +6,7 @@
  }
 
 .hero {
-    margin-top: 100px;
+    margin-top: 75px;
     height: 350px;
     color: #E5E7EB;
     font-size: 18px;
@@ -18,9 +18,20 @@
     color: #F9FAF8;
 }
 
+.hero .button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .hero .flexContainer {
     max-width: 1000px;
-    border: 1px black solid;
     margin: auto;
     display: flex;
     gap: 10px;
@@ -32,6 +43,7 @@
 
 .hero .flexContainer .heroImage {
     flex: 1;
+    background-color: gray;
 }
 
 .headerBar {
@@ -39,7 +51,6 @@
     margin: auto;
     height: 50px;
     max-width: 1000px;
-    border: 1px solid black;
     align-items: center;
 }
 
