@@ -119,5 +119,8 @@
 }
 
 .footer {
-    height: 100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
 }
