@@ -100,6 +100,19 @@
     background-color: #E5E7EB;
 }
 
+.quotes .container {
+    max-width: 800px;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 80px;
+}
+
+.quotes .container h3 {
+    text-align: right;
+}
+
 .contact {
     height: 300px;
     background-color: white;
