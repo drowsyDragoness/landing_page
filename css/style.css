@@ -71,6 +71,30 @@
     background-color: white;
 }
 
+.content .header {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content .flexContainer {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.content .flexContainer .tile {
+    flex: 1;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+}
+
 .quotes {
     height: 400px;
     background-color: #E5E7EB;
